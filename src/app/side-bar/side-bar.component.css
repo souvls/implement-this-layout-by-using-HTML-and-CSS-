@@ -1,0 +1,32 @@
+.side-bar{
+    width: 150px;
+    height: 100vh;
+    background: #191718;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;   
+}
+.side-bar .side-bar-menu .side-bar-menu-item{
+    list-style: none;
+}
+.side-bar ul li{
+    padding: 22px 15px;
+    border-bottom:1px solid #AAAAAA ;
+}
+.side-bar ul li a{
+    color: #AAAAAA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.side-bar ul li:hover{
+    background: #5C5C5C;
+}
+.side-bar ul li:hover a{
+    color: white;
+}
+/* hover */

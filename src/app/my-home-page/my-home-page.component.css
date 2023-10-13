@@ -1,0 +1,51 @@
+.content{
+    width: 1360px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+span{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-header{
+    padding: 19px 130px;
+    background: #EFEFEF;
+    text-align: center;
+}
+
+.content-grid{
+    height: 320px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item-1{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.name{
+    margin-bottom: 18px;
+}
+.footer{
+    padding:36px 0;
+}
